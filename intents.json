@@ -1,0 +1,206 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "good day",
+        "Greetings",
+        "what's up?",
+        "how is it going?"
+      ],
+      "responses": [
+        "Hello!",
+        "Hey!",
+        "What can I do for you?"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "name",
+        "what's your name",
+        "who are you",
+        "what should I call you"
+      ],
+      "responses": [
+        "You can call me Elisa",
+        "I'm Elisa",
+        "I'm Elisa your virtual assistant"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "what courses are available",
+        "how many courses are there in this college"
+      ],
+      "responses": [
+        "For Bachelors in Technology we offer the following courses:\n\n1. CSE\n\n2. MECH\n\n3. ECE\n\n4. EEE\n\n5. ARCH\n\n6. CIVIL"
+      ]
+    },
+    {
+      "tag": "courseDuration",
+      "patterns": [
+        "how long will the B.E or B.TECH course take",
+        "how long is the B.E or B.TECH course"
+      ],
+      "responses": [
+        "Our college offers a 4-year long B.E or B.TECH course."
+      ]
+    },
+    {
+      "tag": "Location",
+      "patterns": [
+        "where is it located",
+        "what is the location of the college"
+      ],
+      "responses": [
+        "K. Ramakrishnan College of Technology, Trichy"
+      ]
+    },
+    {
+      "tag": "semesters",
+      "patterns": [
+        "how many semesters are there in a year",
+        "how many semesters in a year"
+      ],
+      "responses": [
+        "There are two semesters in a year."
+      ]
+    },
+    {
+      "tag": "semDuration",
+      "patterns": [
+        "how many months are there in a semester",
+        "how long will a single semester be"
+      ],
+      "responses": [
+        "Each semester lasts about 3 months."
+      ]
+    },
+    {
+      "tag": "studentRequirements",
+      "patterns": [
+        "what are the student requirements for admission",
+        "entry requirements",
+        "admission requirements"
+      ],
+      "responses": [
+        "The academic requirement is HSC +2 with an overall 55%."
+      ]
+    },
+    {
+      "tag": "classes",
+      "patterns": [
+        "how many classes will be there in a day",
+        "how long are the classes?"
+      ],
+      "responses": [
+        "There are typically seven classes per day, and each class is 50 minutes long."
+      ]
+    },
+    {
+      "tag": "teachingStyle",
+      "patterns": [
+        "what is the teaching style of this college?",
+        "is the teaching pattern different from other colleges?",
+        "what is the teaching format?"
+      ],
+      "responses": [
+        "Our college has a unique teaching pattern compared to other colleges in Tamil Nadu. You can provide us with your contact details, and our counselors will reach out to you with more information."
+      ]
+    },
+    {
+      "tag": "exams",
+      "patterns": [
+        "what are the exams like?",
+        "what is the exam pattern?"
+      ],
+      "responses": [
+        "Assignments carry more weight than written exams. Make sure to submit them on time to get better marks."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "what are your hours",
+        "when are you open",
+        "what are your hours of operation"
+      ],
+      "responses": [
+        "You can message us at any time, but our college premises are open from 7:00 AM to 5:00 PM."
+      ]
+    },
+    {
+      "tag": "funActivities",
+      "patterns": [
+        "will there be any extracurricular activities?",
+        "does the college conduct any fun programs?"
+      ],
+      "responses": [
+        "Yes! We offer various activities like sports meets, carnivals, and celebrate festivals like Holi and Christmas. We also have basketball courts, badminton courts, and a lot of other recreational facilities."
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "what facilities are provided by the college?",
+        "what are the facilities of the college?",
+        "what are the college infrastructures?"
+      ],
+      "responses": [
+        "Our college offers excellent facilities such as 24/7 internet access, an AC library, discussion rooms, canteens, parking spaces, and student service desks for queries."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "see you later",
+        "goodbye",
+        "I am leaving",
+        "have a good day",
+        "bye",
+        "see ya"
+      ],
+      "responses": [
+        "Sad to see you go :(",
+        "Talk to you later!",
+        "Goodbye!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "that's helpful",
+        "awesome, thanks",
+        "thanks for helping me"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Anytime!",
+        "My pleasure!"
+      ]
+    },
+    {
+      "tag": "invalid",
+      "patterns": [
+        "sdjkabd",
+        "gvsd",
+        "asbhk",
+        "randomtext"
+      ],
+      "responses": [
+        "Sorry, I can't understand that.",
+        "Please give me more info.",
+        "Not sure I understand."
+      ]
+    }
+  ]
+}
